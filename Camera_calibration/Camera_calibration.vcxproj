@@ -77,8 +77,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Arlco_Camera.xml" />
-    <None Include="in_Arlco_Camera_data.xml" />
+    <None Include="Arlco_Camera.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="in_Arlco_Camera_data.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="in_Logitech_C170.xml">
       <SubType>Designer</SubType>
     </None>
